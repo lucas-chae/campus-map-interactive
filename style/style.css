@@ -1,0 +1,359 @@
+@keyframes changecolor {
+    0%,
+    10%,
+    20%,
+    40%,
+    60%,
+    70%,
+    80%,
+    90%,
+    100% {
+        opacity: 1;
+        stroke-opacity:1;
+        stroke:black;
+        stroke-opacity:0.5;
+        stroke-width:2px;
+        stroke-linejoin:round;
+        
+    }
+    50% {
+        fill: #CECECE;
+        
+    }
+}
+
+.menubar {
+    overflow: hidden;
+    font-family: 'Asap Condensed';
+    font-size: 60px;
+    padding-left: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    letter-spacing: 1px;
+    font-weight: 600;
+    color: #FFFFFF;
+    background-color: #FA6300;
+}
+
+.floatright {
+    float: right;
+}
+
+.floatleft {
+    float: left;
+}
+
+.topmargin {
+    padding-top: 15px;
+}
+
+.beige-fill {
+    background-color: #fff2e6;
+}
+
+.white-fill {
+    background-color: #FFFFFF;
+}
+
+.hoverstate {
+    animation-duration: 1.2s;
+    animation-name: changecolor;
+    animation-iteration-count: infinite;
+    
+}
+
+.st0 {
+    fill: #EDEDED;
+}
+
+.st1 {
+    /* For Safari 3.1 to 6.0 */
+    fill: #E99723;
+    opacity: 1;
+    stroke: grey;
+    stroke-opacity: 0;
+    stroke-width: 1px;
+}
+
+.st2 {
+    fill: #40A4E2;
+    opacity: 1;
+    stroke: grey;
+    stroke-opacity: 0;
+    stroke-width: 1px;
+}
+
+polygon: hover {
+    opacity: 1;
+}
+
+.st3 {
+    fill: #5CEAC8;
+    opacity: 1;
+    stroke: grey;
+    stroke-opacity: 0;
+    stroke-width: 1px;
+}
+
+.st3s {
+    fill: #9BCBDD;
+}
+
+.st4 {
+    fill: #DA76DD;
+    opacity: 1;
+    stroke: grey;
+    stroke-opacity: 0;
+    stroke-width: 1px;
+}
+
+.st5 {
+    fill: #AFAFAF;
+}
+
+.st6 {
+    fill: #474747;
+    stroke: #474748;
+    stroke-miterlimit: 10;
+}
+
+.st7 {
+    fill: #CECECE;
+}
+
+.st8 {
+    fill: #474747;
+    stroke: #474748;
+    stroke-width: 0.25;
+    stroke-miterlimit: 10;
+}
+
+.st9 {
+    fill: #474747;
+}
+
+.st9s {
+    enable-background:new    ;
+}
+
+.st10 {
+    fill: #FFFFFF;
+}
+
+.st11 {
+    font-family: 'Asap Condensed';
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+
+.st12 {
+    font-size: 9px;
+}
+
+::-webkit-scrollbar {
+    width: 15px;
+    /* -webkit-border-radius: 5px;
+    -moz-border-radius: 5px; */
+}
+
+
+/* this targets the default scrollbar (compulsory) */
+
+::-webkit-scrollbar-track {}
+
+
+/* the new scrollbar will have a flat appearance with the set background color */
+
+::-webkit-scrollbar-thumb {
+    background-color: #474748;
+}
+
+
+/* this will style the thumb, ignoring the track */
+
+.container-1 {
+    width: 100%;
+    vertical-align: middle;
+    white-space: nowrap;
+    position: relative;
+}
+
+.container-1 input.search {
+    width: 100%;
+    height: 30px;
+    background: #EDEDED;
+    border: none;
+    font-size: 10pt;
+    float: left;
+    color: #63717f;
+    padding-left: 35px;
+}
+
+.container-1 input.search::-webkit-input-placeholder {
+    color: #474748;
+}
+
+.container-1 input.search:-moz-placeholder {
+    /* Firefox 18- */
+    color: #474748;
+}
+
+.container-1 input.search::-moz-placeholder {
+    /* Firefox 19+ */
+    color: #474748;
+}
+
+.container-1 input.search:-ms-input-placeholder {
+    color: #474748;
+}
+
+.container-1 .icon {
+    position: absolute;
+    margin-left: 10px;
+    padding-top: 5px;
+    z-index: 1;
+    color: #4f5b66;
+}
+
+.container-1 .icon:hover {
+    color: #FFFFFF;
+}
+
+.right-padding {
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+rect:hover {
+    opacity: 1;
+}
+
+path:hover {
+    opacity: 1;
+}
+
+polygon:hover {
+    opacity: 1;
+}
+
+g:hover {
+    opacity: 1;
+}
+
+.scrollbox {
+    height: 150px;
+    width: 100%;
+    background-color: #fff2e6;
+    text-indent: 10px;
+}
+
+.scrollbox {
+    overflow: hidden;
+    overflow-y: scroll;
+}
+
+div.room:hover, div.room1:hover, div.room2:hover, div.room3:hover, div.room4:hover{
+    background-color: #474748;
+    color: #FFFFFF;
+}
+
+.blue {
+    background-color: #40A4E2;
+}
+
+.orange {
+    background-color: #E99723;
+}
+
+.green {
+    background-color: #5CEAC8;
+}
+
+#labs {
+    background-color: #40A4E2;
+    min-height: 150px;
+}
+
+#offices {
+    background-color: #E99723;
+    min-height: 150px;
+}
+
+#classrooms {
+    background-color: #5CEAC8;
+    min-height: 150px;
+    font-family: 'Archivo';
+}
+
+.room, .room1, .room2, .room3, .room4{
+    padding-left: 10px;
+    padding-bottom: 3px;
+    font-family: 'Asap Condensed';
+    font-weight: 400;
+    font-size: 16px;
+    color: #FFFFFF;
+    letter-spacing: 1px;
+}
+
+.room-category {
+    border-bottom: 1px solid white;
+    font-size: 20px;
+    color: white;
+    font-family: 'Asap Condensed';
+    font-weight: 600;
+    letter-spacing: 2px;
+    padding-left: 20px;
+    padding-bottom: 10px;
+}
+
+.pink {
+    padding-left: 20px;
+    background-color: #DA76DD;
+}
+
+#menu {
+    font-size: 14px;
+}
+
+.main-content {
+    display: none;
+}
+
+.cl-effect-4 a,
+.cl-effect-4 a:hover,
+.cl-effect-4 a:active,
+.cl-effect-4 a:visited,
+.cl-effect-4 a:focus .cl-effect-9 a,
+.cl-effect-9 a:hover,
+.cl-effect-9 a:active,
+.cl-effect-9 a:visited,
+.cl-effect-9 a:focus .cl-effect-9:link {
+    color: #FFFFFF;
+    text-decoration: none;
+    text-decoration-line: none;
+    text-decoration-style: none;
+}
+
+.floorInfo{
+    position:absolute;
+    left:33px;
+    top:85px;
+    padding-top:10px;
+    font-size:20px;
+    font-family: 'Asap Condensed';
+    letter-spacing: 1px;
+    color:#ffffff;
+    
+    
+}
+
+.intro {
+    font-size: 60px;
+    text-align: center;
+    top:300px;
+    padding-top: 280px;
+    padding-bottom: 400px;
+    font-family: 'Asap Condensed';
+    letter-spacing: 3px
+    
+}
